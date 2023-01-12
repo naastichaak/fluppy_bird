@@ -10,6 +10,23 @@
     <title>Fluppy bird</title>
 </head>
 <body>
-    <canvas id="canvas"></canvas>
+    <div class="description">
+        <p>For play tap on SPACE</p>
+    </div>
+
+    <div class="wrapper">
+        <p id="score">SCORE: </p>
+        <p id="best-score">BEST SCORE: </p>
+    </div>
+
+    <br>
+
+    <canvas id="canvas" width="256" height="512"></canvas>
+
+    <br>
+    
+    <div class="buttons">
+        <input type="button" onclick="pause()" value="pause" class="btn">
+    </div>
 </body>
 </html>
